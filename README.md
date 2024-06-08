@@ -5,3 +5,5 @@
 5. Counting how many visitors each patient had (2 ways)
 6. Displaying patients with 3 or more visits
 7. Displaying all patients and the number of guests they had
+
+Ran on pgAdmin4

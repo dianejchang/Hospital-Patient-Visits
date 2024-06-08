@@ -37,7 +37,7 @@ JOIN patient ON visit_fact.patid = patient.patid
 GROUP BY patient.name
 HAVING COUNT(visit_fact.patid) >= 3 
 
--- Show a report that shows the name of the patient and how many visits they had, but only patients that had 3 or more visits. Show all names.
+-- Show a report that shows the name of the patient and how many visits they had. Show all names.
 SELECT name, COUNT(visit_fact.patid) AS visitor_num
 FROM visit_fact
 RIGHT JOIN patient ON visit_fact.patid = patient.patid
